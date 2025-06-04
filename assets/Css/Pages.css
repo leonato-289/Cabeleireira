@@ -86,6 +86,87 @@
     display: none;
   }
 
+  .img-botao-container {
+    position: relative;
+    width: 100%;
+    height: auto;
+  }
+
+  .bt {
+    position: absolute;
+    top: 52%; /* ajusta aqui pra alinhar com a linha da imagem no CELULAR */
+    left: 34%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: row;
+    gap: 12px;
+    z-index: 10;
+
+  }
+
+  .btmM {
+    background-color: rgb(255, 255, 255);
+    border: rgb(230, 183, 123) solid 1px;
+    border-radius: 50px;
+    width: 100px;
+    height: 50px;
+    align-items: center;
+    align-content: center;
+    margin-bottom: 15px;
+  }
+
+  .btmM:hover {
+    background-color: rgb(151, 106, 0);
+    border: rgb(133, 84, 20) solid 1px;
+    border-radius: 50px;
+    width: 100px;
+    height: 50px;
+    align-items: center;
+    align-content: center;
+    color: white;
+  }
+
+  .btmW {
+    background-color: rgb(255, 255, 255);
+    border: rgb(0, 128, 0) solid 1px;
+    border-radius: 50px;
+    width: 100px;
+    height: 50px;
+    align-items: center;
+    align-content: center;
+  }
+
+  .btmW:hover {
+    background-color: rgb(0, 128, 0);
+    border: rgb(0, 128, 0) solid 1px;
+    border-radius: 50px;
+    width: 100px;
+    height: 50px;
+    align-items: center;
+    align-content: center;
+  }
+
+  .llinkM {
+    text-decoration: none;
+    color: rgb(180, 117, 23);
+  }
+
+  .llinkM:hover {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+  }
+
+  .llinkW {
+    text-decoration: none;
+    color: rgb(0, 128, 0);
+  }
+
+  .llinkW:hover {
+    text-decoration: none;
+    color: rgb(252, 252, 252);
+    
+  }
+
   .rodapepc {
     display: none;
   }
@@ -102,6 +183,8 @@
     pointer-events: none;
     user-select: none;
   }
+
+  
 
   .rodapecll {
     width: 100%;
