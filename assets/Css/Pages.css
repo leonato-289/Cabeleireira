@@ -79,6 +79,13 @@
   .fundoCell {
     display: none;
   }
+
+  .img-botao-container{
+    display: none;
+  }
+  .logo {
+    display: none;
+  }
 }
 
 @media (max-width: 768px) {
@@ -117,7 +124,7 @@
 
   .btmM:hover {
     background-color: rgb(151, 106, 0);
-    border: rgb(133, 84, 20) solid 1px;
+    border: rgb(255, 230, 198) solid 4px;
     border-radius: 50px;
     width: 100px;
     height: 50px;
@@ -137,8 +144,8 @@
   }
 
   .btmW:hover {
-    background-color: rgb(0, 128, 0);
-    border: rgb(0, 128, 0) solid 1px;
+    background-color: #029816;
+    border: rgb(208, 251, 208) solid 4px;
     border-radius: 50px;
     width: 100px;
     height: 50px;
@@ -270,8 +277,8 @@ body::-webkit-scrollbar {
 /* Desktop */
 @media (min-width: 769px) {
   .lista-destaques li {
-    background: #fadced;
-    border-left: 6px solid rgb(253, 144, 220);
+    background: #ffffff;
+    border-left: 6px solid #d6b182 ;
     box-shadow: 0 6px 12px rgba(0,0,0,0.1);
     margin-bottom: 30px;
     padding: 25px 30px;
@@ -293,14 +300,14 @@ body::-webkit-scrollbar {
 
   .lista-destaques i {
     font-size: 32px;
-    color: rgb(253, 0, 177);
+    color: #864a00;
     flex-shrink: 0;
-    margin-top: 4px;
+    margin-top: 13px;
   }
 
   .lista-destaques strong {
     font-weight: 600;
-    color: rgb(250, 84, 172);
+    color: #B27021;
   }
 }
 
@@ -403,4 +410,17 @@ body::-webkit-scrollbar {
 
 html, body {
   overflow: auto !important;
+}
+
+.text {
+  margin-top: 13px;
+}
+
+.w {
+  text-decoration: none;
+  color: #009402;
+}
+
+.w:hover {
+  color: white;
 }
