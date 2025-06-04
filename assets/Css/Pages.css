@@ -313,6 +313,10 @@ body::-webkit-scrollbar {
 
 /* Mobile */
 @media (max-width: 768px) {
+  .br {
+    display: none;
+  }
+  
   .lista-destaques li {
     background: #ffffff;
     border-left: none;
@@ -424,3 +428,4 @@ html, body {
 .w:hover {
   color: white;
 }
+
